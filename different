@@ -1,0 +1,3 @@
+props.refreshFunction used in Comment.js
+$in function used in getSubscribedVideos route
+if the responseTo property of comment is null then only show it as main commen else show it as a reply

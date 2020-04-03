@@ -1,0 +1,44 @@
+comment.js
+{
+    //at the bottom there is a root comment form
+    //above that form there is a comment list part
+    //there is a single commet part and the other is the reply comment part
+}
+{
+    //create  a comment model
+    //Make comment component in detailspage
+}
+
+
+video14
+//make a templaet for comment .js
+//make handle change function
+//make on Submit function//Updaet saved data into parent component
+//show Comment List data in Console pnael
+
+
+//video15 
+{
+    outputting the comment list
+    //Create Single Commment component in comment.js
+    //Make a template for a single Comment
+    //make open Onreply func and handle Change function
+    //make on Submit function
+    //Update Saved Data into Parent component 
+
+    singleComment.js--> props.refreshFunction
+    Comment.js--> props.refreshFunction
+    
+    detailvideo.js-->loadComment
+    
+}
+//goto detail video page and bring in all the comments from the database
+//then import the Single PAge Component in the comment.js and map the comment lIst through into
+// now make the reply comment component
+{
+    //reate a reply comment component in Comment.js
+    //make the templaet for reply comment
+    //make RenderReply comment
+    //makeChild Comment number
+    //Complete comment System
+}

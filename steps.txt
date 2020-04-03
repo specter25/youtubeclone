@@ -1,0 +1,100 @@
+// in private route if parameter is null then page is public and private if, parameter is false then page is only public, if it is true , it is only private
+
+
+video1
+1)install the boilerplate , configure the database and , install all dependencies
+
+video2
+1)create the upload Video form
+2) first import in app.js ./views/UploadVideoPage/UploadVideoPage.js
+3) create private route for it 
+4) steps tin upload video pages
+
+video 3
+1)basic steps to do here
+{
+// download multer , import it
+//save video from client to server
+// save video in server
+// Give path info of where to save video to Client
+}
+2)go to Upload video and create onDrop handler
+3) make the route while making the onDrop function
+a) make a new file router/video.js and app.use it in index.js
+b)import multer and create the route 
+c)complete the success handler in onDrop
+//video3 ends
+
+
+//video 4(Generating thumbnails from video using ffmpeg)
+1) basic steps to do here
+{
+//Download Dependency for generating thumbnails
+the 2 commands required are
+//see youtube video about how to install ffmpeg
+npm i fluent-ffmpeg
+//Generate Thumbnail with video saved in server
+//Save thumbnail images in node server
+//Send FilePath of Thumbnail Images to Client 
+//Populate the thumbnail images on the
+
+}
+2)Continue making the onDrop feature
+
+
+//video4
+1)
+{
+// submit all info to backend for uploading video post
+{writer,title,description,privacy,filePath,category,views,duration,thumbnail}
+//Make Video Collection for mongoDB which is Table in SQL technology
+//make on submit function
+//Submit all info to server
+//save them in mongo db
+}
+2) make the video model with Vcapital "Video.js"
+3)make the onSubmit function 
+4) goto the backend to make the route for uploading the video
+5)Complete the onSubmit function
+
+//video5
+1)
+{
+//making the landing page 
+//make empty landing page
+//make the ui for video card
+//Fetch all the Video data From Mongodb to the client   
+//Display video List in the landing page
+//use map() method
+}
+2)goto landing.js and use the effect hook to query the server to get all the videos
+3)make the route 
+4) usesate hook to store all the voideos
+5) render the videos as cards
+
+//video 6
+1)
+{
+    //Making detail Video Post page
+    //make the empty Detail post page
+    //Make the template for Detail page
+    //Ftech the video post data From the Mongodb
+    //Populate data on Browser
+}
+2)make a new folder detailvideopage and then a file and then create a route for it in app.js
+3) attach the link to each video in landing page to drive it to the indivisua details video page
+//now goto details page and paste the tempalte
+//while making the detail page component goto router to make the route
+//complete the error and success handlers 
+
+
+//video7
+1)
+{
+    //Make the Side Video in Video Post page
+    //make the entire layout 
+    //make the template for one card
+    //fetching all video data from Mongodb
+    //populate datas in browser
+}
+2)make a new component for the side Videos in the details video folder

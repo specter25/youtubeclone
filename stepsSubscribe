@@ -1,0 +1,36 @@
+video 10
+1)
+{
+    //Subsscribe feature
+    //make the Subsscribe model{ userTo ,userFrom}
+    //Make Subscribe Button ui
+    //Fetching the no. of How Many Subscribers Post Writer Have
+    //fetching The info whether I am the vide owners subscriber or not
+    //Populate Data on browser
+}
+2) MAke the subscriber model
+3) Goto the details page to reneder the button ui
+
+
+//video11
+{
+    //make the feature to subscribe 
+    //0-subscribe , 1 subscribed
+    // when not subscribed and when subscribed
+}
+goto the subscribe.js in react and add an onClick button handler
+//make the routes and complete teat function
+
+//video11
+{
+    //make the Subscription page
+    //make the route for subscription page
+    //make a template
+    //fetch all the videos that only belong to the subscrber 
+    //populate the fetched data on the browser
+
+}
+make a new folder SubscriptionAPge/subscriptionPage.js
+//now maek  a route for the subscription PAge
+//in the mean while also make links in the navbar for upload video page and also the 
+//copy the template of the landing page for the subscription page

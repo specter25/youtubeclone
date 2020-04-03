@@ -1,0 +1,6 @@
+{
+    "mongoURI": "mongodb://ujjwal:ujjwal@cluster1-shard-00-00-khf9x.mongodb.net:27017,cluster1-shard-00-01-khf9x.mongodb.net:27017,cluster1-shard-00-02-khf9x.mongodb.net:27017/test?ssl=true&replicaSet=cluster1-shard-0&authSource=admin&retryWrites=true&w=majority",
+    "jwtToken": "mysecrettoken",
+    "githubClientId": "5bcf8bd9512e9052dcf8",
+    "githubSecret": "823715c7174a05251b0446d09c186e81d1b1f91e"
+}
